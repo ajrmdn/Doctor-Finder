@@ -12,7 +12,7 @@ $(document).ready(function () {
     let promise = doctorServices.getDoctorsInfo(doctor);
     promise.then(function (response) {
       let body = JSON.parse(response);
-      $('.showDoctor').text(body.);
+      $('.showDoctor').text(body.I NEED TO FIGURE OUT POSTMAN);
       $('.showAddress').text(body.);
       $('.showPhone').text(body. );
       $('.showWebsite').text(body.);
