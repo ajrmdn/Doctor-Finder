@@ -1,6 +1,6 @@
 export class DoctorFinder {
 
-  getDoctorsInfo(issue) {
+  getDoctorsInfo(symptom) {
     return new Promise(function (resolve, reject) {
       let request = new XMLHttpRequest();
       let url = `https://betterdoctor.com/?name=${doctor}&query=${illness}q=portland,oregon&user_key=${process.env.exports.apiKey}`;
