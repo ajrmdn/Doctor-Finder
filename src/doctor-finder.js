@@ -3,7 +3,7 @@ export class DoctorFinder {
   getDoctorsInfo(symptom) {
     return new Promise(function (resolve, reject) {
       let request = new XMLHttpRequest();
-      let url = `https://betterdoctor.com/?q=portland,oregon&appid=06c61ef45efcb6781b9987e413432c51`;
+      let url = `https://betterdoctor.com/?name=${doctor}&query=${illness}q=portland,oregon&user_key=${process.env.exports.apiKey}`;
       request.onload = function () {
         if (this.status === 200) {
           resolve(request.responce);

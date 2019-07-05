@@ -12,11 +12,11 @@ $(document).ready(function () {
     let promise = doctorServices.getDoctorsInfo(doctor);
     promise.then(function (response) {
       let body = JSON.parse(response);
-      $('.showDoctor').text(body. ADD FROM POSTMAN);
-      $('.showAddress').text(body. ADD FROM POSTMAN);
-      $('.showPhone').text(body. ADD FROM POSTMAN);
-      $('.showWebsite').text(body. ADD FROM POSTMAN);
-      $('.showNewPatience').text(body. ADD FROM POSTMAN);
+      $('.showDoctor').text(body. ------);
+      $('.showAddress').text(body.-----);
+      $('.showPhone').text(body. ------);
+      $('.showWebsite').text(body.------);
+      $('.showIssue').text(body. -------);
     });
   });
 });
