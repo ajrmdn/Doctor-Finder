@@ -1,9 +1,9 @@
-export class Doctor {
+export class DoctorFinder {
 
   getDoctorsInfo(symptom) {
     return new Promise(function (resolve, reject) {
       let request = new XMLHttpRequest();
-      let url = ``
+      let url = `API ADDRESS GOES HERE ${doctor}`;
       request.onload = function () {
         if (this.status === 200) {
           resolve(request.responce);
@@ -16,3 +16,4 @@ export class Doctor {
       request.send();
     });
   }
+}
