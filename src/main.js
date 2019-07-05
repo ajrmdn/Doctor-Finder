@@ -1,4 +1,4 @@
-import { Sample } from './sample-class.js';
+import { doctors } from './sample-class.js';
 import './styles.css';
 import $ from 'jquery';
 import 'bootstrap';
