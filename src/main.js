@@ -1,4 +1,4 @@
-import { DoctorFinder } from '.sample-class';
+import { DoctorFinder } from '.doctor-finder';
 import './styles.css';
 import $ from 'jquery';
 import 'bootstrap';

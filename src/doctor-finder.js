@@ -3,7 +3,7 @@ export class DoctorFinder {
   getDoctorsInfo(symptom) {
     return new Promise(function (resolve, reject) {
       let request = new XMLHttpRequest();
-      let url = `API ADDRESS GOES HERE ${doctor}`;
+      let url = ``;
       request.onload = function () {
         if (this.status === 200) {
           resolve(request.responce);
