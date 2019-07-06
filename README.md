@@ -34,8 +34,6 @@ Step 5: In terminal, within the project directory, type npm run start
 
 _HTML_
 
-_CSS_
-
 _JavaScript_
 
 _Webpack_
