@@ -13,7 +13,7 @@ _This is an app to help the user find doctors and information on doctors in thei
 |       Behavior                 | Input | Output |
 | ------------------------------ |:-----:| ------:|
 |  user enters doctors name      | john | list of doctors in the Portland Oregon area |
-|  user enters symptom           | fever | list of doctors in the Portland Oregon area |
+|  user enters symptom           | cold | list of doctors in the Portland Oregon area |
 
 
 
