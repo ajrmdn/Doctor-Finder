@@ -1,3 +1,4 @@
+// import { apiKey } from './../.env';
 export class DoctorFinder {
 
   getDoctorsInfo(word) {

@@ -12,14 +12,15 @@ _This is an app to help the user find doctors and information on doctors in thei
 
 |       Behavior                 | Input | Output |
 | ------------------------------ |:-----:| ------:|
-| will give user list of doctors | fever | list of doctors in the Portland Oregon area |
+|  user enters doctors name      | john | list of doctors in the Portland Oregon area |
+|  user enters symptom           | fever | list of doctors in the Portland Oregon area |
 
 
 
 
 ## Setup/Installation
 
-Step 1: Clone this repository to your desktop
+Step 1: Clone this repository to your desktop using this link : https://github.com/ajrmdn/code-review-wk-6
 
 Step 2: Make sure node.js and npm are installed
 
