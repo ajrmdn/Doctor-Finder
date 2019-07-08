@@ -33,10 +33,9 @@ $(document).ready(function () {
           $('.showDoctor').append(`<ul><li>${address}</li><li>${phone}</li><li>Website: ${website}</li><li>Taking new patient: ${newPatients}</li></ul>`);
         }
 
-      });
-       // function (error) {
-       //       $('.showDoctor').text(`There is an error in your request: ${error.message}`);
-       //     };
+      }, function (error) {
+             $('.showDoctor').text(`There is an error in your request: ${error.message}`);
+           });
 
   });
 });
